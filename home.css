@@ -1,0 +1,28 @@
+body{
+    height: 750px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color:red;
+    
+}
+
+.homeIcon{
+    width:120px;
+    height:120px;
+    background-color: rgb(255, 195, 44);
+    position: relative;
+    left: -7px;
+    top: -22px;
+    border-radius: 0em 00em 2em 0em;
+
+
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    right: -10px;
+    position: relative;
+    left:20px;
+    top:10px;
+    
+}
