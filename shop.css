@@ -3,15 +3,21 @@ header{
     margin:auto;
     padding: 0px;
     height: 120px;
-    width: 100vw;
+    width: 96vw;
     display: inline-block;
+    
 }
 
 body{
     background-color:white;
     margin:auto;
-    padding:auto;
+    padding:0;
     height: 2250px;
+    width: 96vw;
+    margin: 0;
+    
+    
+    
 }
 
 .logohome{
@@ -147,20 +153,22 @@ h1{
 .block1{
     background-color:black;
     height: 750px;
-    width: 1520px;
+    width: 97.5vw;
     padding: 10px;
     position: relative;
     top:10px;
     z-index: -4;
+    margin: 0;
 }
 
 
 .block2{
     
     height: 750px;
-    width: 1520px;
+    width: 97.5vw;
     padding: 10px;
     z-index: -4;
+    margin: 0;
 
 }
 
@@ -168,16 +176,17 @@ h1{
 .block3{
     background-color:black;
     height: 750px;
-    width: 1520px;
+    width: 97.5vw;
     padding: 10px;
     z-index: -4;
+    margin: 0;
 
 }
 
 footer{
     
     height:100px;
-    width:100vw;
+    width:96vw;
 
 }
 
@@ -587,4 +596,5 @@ align-content: center;
 position: relative;
 left: 617px;
 align-items: center;
+
 }
