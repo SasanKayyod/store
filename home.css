@@ -7,17 +7,6 @@ body{
     
 }
 
-.homeIcon{
-    width:120px;
-    height:120px;
-    background-color: rgb(255, 195, 44);
-    position: relative;
-    left: -7px;
-    top: -22px;
-    border-radius: 0em 00em 2em 0em;
-
-
-}
 h1{
     font-family: Helvetica, sans-serif;
     right: -10px;
@@ -25,4 +14,29 @@ h1{
     left:20px;
     top:10px;
     
+}
+
+.center{
+    width: 100px;
+    height: 100px;
+    background:blue;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+    left:-1000px;
+
+}
+
+.center:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    left:-1000px;
+
+}
+.left{
+    width:100px;
+    height:100px;
+    background-color: white;
+    position:relative;
 }
